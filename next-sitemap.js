@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: "https://carlosazaustre.es",
+  siteUrl: "https://jordyvega.com.gt",
   generateRobotsTxt: true,
   exclude: [
     "/subscripcion",

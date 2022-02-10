@@ -127,7 +127,7 @@ export const Footer = () => {
             <UnorderedList styleType="none" ml={[0, 0, 0, 4]}>
               <ListItem>
                 <NextLink href="/cursos/">
-                  <Link>Curso de React y Firebase, GRATIS desde cero</Link>
+                  <Link>Curso de React y Firebase</Link>
                 </NextLink>
               </ListItem>
             </UnorderedList>

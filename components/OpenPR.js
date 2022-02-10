@@ -3,8 +3,8 @@ import { IconGithub } from "./icons";
 import { CustomLink } from "./CustomLink";
 
 const github = {
-  user: "",
-  repo: "",
+  user: "JordyV3",
+  repo: "webside",
 };
 
 export const OpenPR = ({ slug }) => {

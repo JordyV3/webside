@@ -7,7 +7,7 @@ export const OpenGraph = ({ metadata = {} }) => {
       metadata.description ||
       "Desarrollador Web Fullstack.",
     slug: metadata.slug || "",
-    image: `https://website-carlosazaustre.vercel.app${metadata.image || '/assets/default-image.png'}`,
+    image: `https://jordyvega.com.gt${metadata.image || '/assets/default-image.png'}`,
     date: metadata.date || new Date().toISOString(),
   };
 
@@ -18,16 +18,16 @@ export const OpenGraph = ({ metadata = {} }) => {
       <meta content={SEO.description} name="description" />
       <meta
         property="og:url"
-        content={`https://carlosazaustre.es/${SEO.slug}`}
+        content={`https://jordyvega.com.gt/${SEO.slug}`}
       />
-      <link rel="canonical" href={`https://carlosazaustre.es/${SEO.slug}`} />
+      <link rel="canonical" href={`https://jordyvega.com.gt/${SEO.slug}`} />
       <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="Carlos Azaustre" />
+      <meta property="og:site_name" content="Jordy Vega" />
       <meta property="og:description" content={SEO.description} />
       <meta property="og:title" content={SEO.title} />
       <meta property="og:image" content={SEO.image} />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@carlosazaustre" />
+      <meta name="twitter:site" content="@jordyvega15" />
       <meta name="twitter:title" content={SEO.title} />
       <meta name="twitter:description" content={SEO.description} />
       <meta name="twitter:image" content={SEO.image} />

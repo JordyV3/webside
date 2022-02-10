@@ -50,11 +50,11 @@ const BuyOnAmazon = () => (
             mb={2}
             _hover={{ bg: "brand.900" }}
           >
-            <a href="https://amzn.to/2UmJ8JQ">
+            {/* <a href="https://amzn.to/2UmJ8JQ">
               <UI.Text fontSize="xl" fontWeight="bold">
                 🇪🇸 | Comprar desde Amazon España
               </UI.Text>
-            </a>
+            </a> */}
           </UI.ListItem>
           <UI.ListItem
             bg="white"
@@ -63,11 +63,11 @@ const BuyOnAmazon = () => (
             mb={2}
             _hover={{ bg: "brand.900" }}
           >
-            <a href="https://www.amazon.com/dp/B08TZ3HSYZ">
+            {/* <a href="https://www.amazon.com/dp/B08TZ3HSYZ">
               <UI.Text fontSize="xl" fontWeight="bold">
                 🌎 | Comprar desde Amazon USA para Latinoamérica
               </UI.Text>
-            </a>
+            </a> */}
           </UI.ListItem>
         </UI.UnorderedList>
       </UI.AccordionPanel>

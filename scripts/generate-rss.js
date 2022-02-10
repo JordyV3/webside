@@ -8,10 +8,10 @@ const matter = require("gray-matter");
     title: "JORDY VEGA - Desarrollador Web",
     description:
       "Web y blog sobre desarrollo web",
-    site_url: "https://carlosazaustre.es",
-    feed_url: "https://carlosazaustre.es/rss.xml",
+    site_url: "https://jordyvega.com.gt/",
+    feed_url: "https://jordyvega.com.gt/rss.xml",
     webMaster: "Jordy Vega",
-    copyright: `2011-${new Date().getFullYear()} Jordy Vega`,
+    copyright: `2022-${new Date().getFullYear()} Jordy Vega`,
     language: "es",
   });
 
@@ -25,7 +25,7 @@ const matter = require("gray-matter");
       const frontmatter = matter(content);
       const item = {
         title: frontmatter.data.title,
-        url: `https://carlosazaustre.es/${file.replace(/\.mdx?/, "")}`,
+        url: `https://jordyvega.com.gt/${file.replace(/\.mdx?/, "")}`,
         date: frontmatter.data.date,
       };
       if (frontmatter.data?.summary) {

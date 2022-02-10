@@ -136,17 +136,17 @@ export default function Info() {
 
         <SectionTitle>Recursos</SectionTitle>
         <UI.Flex align="center" justify="center" wrap="wrap">
-          <Social.Youtube href="//youtube.com/carlosazaustre?sub_confirmation=1" />
-          <Social.Twitch href="//twitch.tv/carlosazaustre" />
-          <Social.Twitter href="//twitter.com/carlosazaustre" />
-          <Social.Instagram href="//instagram.com/carlosazaustre" />
-          <Social.Tiktok href="//tiktok.com/@carlosazaustre" />
-          <Social.Linkedin href="//linkedin.com/in/carlosazaustre" />
+          <Social.Youtube href="//youtube.com/UCaxgyGB1VUKn6esKaQzc8bg" />
+          {/* <Social.Twitch href="//twitch.tv/carlosazaustre" />
+          <Social.Twitter href="//twitter.com/carlosazaustre" /> */}
+          <Social.Instagram href="//instagram.com/jordy_vega3" />
+          {/* <Social.Tiktok href="//tiktok.com/@carlosazaustre" /> */}
+          {/* <Social.Linkedin href="//linkedin.com/in/carlosazaustre" /> */}
         </UI.Flex>
 
         <Item href="https://discord.gg/w5GG5gZQNe">Únete a la comunidad en Discord (+1.4K)</Item>
         <Item href="/p/mentoria">Reserva una mentoría 1:1 personalizada</Item>
-        <Item href="https://www.getrevue.co/profile/carlosazaustre">
+        <Item href="https://www.getrevue.co/profile/jordyvega15">
           Mantente al día apuntándote a la Newsletter
         </Item>
 
@@ -176,7 +176,7 @@ export default function Info() {
           size="230px"
         />
 
-        <UI.Link href="/">carlosazaustre.es</UI.Link>
+        <UI.Link href="/">jordyvega.com.gt</UI.Link>
       </InnerContainer>
     </Container>
   );
