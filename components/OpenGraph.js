@@ -2,10 +2,10 @@ import Head from "next/head";
 
 export const OpenGraph = ({ metadata = {} }) => {
   const SEO = {
-    title: metadata.title || "Aprende JavaScript - Carlos Azaustre",
+    title: metadata.title || "Jordy Vega",
     description:
       metadata.description ||
-      "Formación y Desarrollo Fullstack en JavaScript. Tutoriales y Cursos sobre Programación Web con React, Node, Firebase, etc...",
+      "Desarrollador Web Fullstack.",
     slug: metadata.slug || "",
     image: `https://website-carlosazaustre.vercel.app${metadata.image || '/assets/default-image.png'}`,
     date: metadata.date || new Date().toISOString(),
